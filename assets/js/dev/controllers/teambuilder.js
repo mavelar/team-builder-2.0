@@ -1,6 +1,5 @@
 app.controller('teamCtrl',  ['$scope', '$document','$timeout','$http', function($scope, $document, $timeout, $http){
 
-
 	buildTeamJQ();
 	function buildTeamJQ() {
 	var memCount = 0;
@@ -82,11 +81,10 @@ app.controller('teamCtrl',  ['$scope', '$document','$timeout','$http', function(
 					} 
 				})
 			}
-			return true;
 		}
 
 		//input member into list
-		$('#btnAddMember').click( add );
+		$('#btnAddMember').click(add);
 		$("#memberOne").bind("keypress", function(event) {
 		    if(event.which == 13) {
 		    	event.preventDefault();
@@ -147,6 +145,7 @@ app.controller('teamCtrl',  ['$scope', '$document','$timeout','$http', function(
 
 		var responsePromise = $http.post('/saveTeams/',teststruc);
 		responsePromise.success(function(data, status, headers, config) {
+			Materialize.toast('Saved', 4000);
         });
 	}
 

@@ -1,5 +1,7 @@
 app.controller('homeCtrl', function($scope){
 
+    $('.materialboxed').materialbox();
+    $('.button-collapse').sideNav({menuWidth: 240, activationWidth: 70});
     //register & search functionality
     var ele = $('.control .card-panel a');
     ele.click(function(element) {
