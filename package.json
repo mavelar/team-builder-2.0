@@ -1,12 +1,12 @@
 {
   "name": "teambuilder",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Team Builder for a better organisation.",
   "repository": {
     "type": "git",
     "url": "https://github.com/jrvboesch/teambuilder.git"
   },
-  "author": "Jean-Pierre Sierens, Juan Rodrigo Venegas",
+  "author": "Juan Rodrigo Venegas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jrvboesch/teambuilder/issues"
