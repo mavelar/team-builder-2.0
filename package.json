@@ -1,0 +1,31 @@
+{
+  "name": "teambuilder",
+  "version": "0.0.1",
+  "description": "Team Builder for a better organisation.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrvboesch/teambuilder.git"
+  },
+  "author": "Jean-Pierre Sierens, Juan Rodrigo Venegas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrvboesch/teambuilder/issues"
+  },
+  "devDependencies": {
+    "angular": "^1.4.1",
+    "body-parser": "~1.12.0",
+    "express": "^4.12.2",
+    "fs": "0.0.2",
+    "mongodb": "^1.4.34",
+    "mongoose": "^4.0.6",
+    "path": "~0.11.14",
+    "gulp": "~3.9.0",
+    "gulp-browserify": "~0.5.1",
+    "gulp-uglify": "~1.2.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-sourcemaps": "~1.5.2",
+    "gulp-sass": "~2.0.3",
+    "gulp-livereload": "~3.8.0"
+  },
+  "dependencies": {}
+}

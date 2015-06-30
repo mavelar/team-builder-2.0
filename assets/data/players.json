@@ -1,0 +1,73 @@
+<<<<<<< HEAD
+{
+    "team": "Team 1",
+    "players": [
+        {
+            "id": "1",
+            "name": "Pete Hunt"
+        },
+        {
+            "id": "2",
+            "name": "Jordan Walke"
+        },
+        {
+            "id": "3",
+            "name": "John Doe"
+        },
+        {
+            "id": "4",
+            "name": "Mary Jane"
+        },
+        {
+            "id": "5",
+            "name": "J. Carmack"
+        },
+        {
+            "name": "qwerty"
+        },
+        {
+            "name": "qwerty2"
+        },
+        {
+            "name": "123456"
+        },
+        {
+            "name": "123"
+        }
+    ]
+}
+=======
+[
+    {
+        "team": "Team 1",
+        "players": [
+            {
+                "name": "Hola"
+            },
+            {
+                "name": "asdasd"
+            },
+            {
+                "name": "JP"
+            },
+            {
+                "name": "Batman"
+            }
+        ]
+    },
+    {
+        "team": "Team 2",
+        "players": [
+            {
+                "name": "Hola 2"
+            },
+            {
+                "name": "Juan"
+            },
+            {
+                "name": "Spiderman"
+            }
+        ]
+    }
+]
+>>>>>>> 9cf7dda96866b96d3d8cf1c966504e3d0fd8c684

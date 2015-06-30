@@ -1,0 +1,26 @@
+  <!-- content starts -->
+  <div class="home">
+    <h3>La Potra</h3>
+    <div class="row">
+      <div class="col s3 memberList">
+        <h5>Member list</h5>
+        <div class="members team0" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="greyBox"></div>
+        </div>
+        <div class="input-field">
+          <input id="memberOne" type="text" class="validate">
+          <label for="memberOne">team member</label>
+          <a id="btnAddMember" class="waves-effect waves-light btn">Add Member</a>
+          <br>
+          <a id="btnSaveMember" class="waves-effect waves-light btn" ng-click="saveNames()">save</a>
+        </div>
+    </div>
+      <div class="col s3 team" ng-repeat="n in [1,2,3]">
+        <h5>Team {{n}}</h5>
+        <div class="dropArea team{{n}}" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="greyBox">Drag here...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+

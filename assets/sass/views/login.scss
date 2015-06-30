@@ -1,0 +1,22 @@
+/*
+	Author: Juan Venegas
+	Email: jrvboesch@gmail.com
+*/
+.login{
+	background: black;
+	color: white;
+	width: 45%;
+	position: absolute;
+	display: none;
+	top: 50%;
+	left: 50%;
+	z-index: 99999;
+	 margin-left: -22.5%;
+	padding: 20px;
+	h1{
+		margin: 0;
+	}
+	.row:last-child, .btn-large{
+		margin-bottom: 0;
+	}
+}

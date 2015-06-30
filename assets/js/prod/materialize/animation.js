@@ -1,0 +1,1 @@
+jQuery.extend(jQuery.easing,{easeInOutMaterial:function(x,t,b,c,d){return(t/=d/2)<1?c/2*t*t+b:c/4*((t-=2)*t*t+2)+b}});
